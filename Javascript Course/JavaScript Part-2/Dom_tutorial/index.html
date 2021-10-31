@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./style.css">
+     <!-- <script src="./11-.js" async></script> -->
+     <!-- <script src="./11-DOM.js" defer></script> -->
+     <!-- <script src="./12-getElementById.js" defer></script> -->
+     <!-- <script src="./13-query_selector.js" defer></script> -->
+     <!-- <script src="./14-Change_text.js" defer></script> -->
+     <!-- <script src="./15-Change_style.js" defer></script> -->
+     <!-- <script src="./16-get_and_set.js" defer></script> -->
+     <!-- <script src="./17-querySelectorAll_&_getElementbyClassName.js" defer></script> -->
+     <!-- <script src="./18-Iterate.js" defer></script> -->
+     <!-- <script src="./19-innerHtml.js" defer></script> -->
+     <!-- <script src="./21-classList,add and remove, toggle classes.js" defer></script> -->
+     <!-- <script src="./22-Add_HTML_elements_using_js.js" defer></script> -->
+     <!-- <script src="./23-Create_element.js" defer></script> -->
+     <!-- <script src="./24-insertAdjacentHTML.js" defer></script> -->
+     <!-- <script src="./25-clone_nodes.js" defer></script> -->
+     <!-- <script src="./26-some_old_method.js" defer></script> -->
+     <!-- <script src="./27_static_list_vs_live_list.js" defer></script> -->
+     <!-- <script src="./28-dimensions_of_elements.js" defer></script> -->
+     <!-- <script src="./29-intro_to_event.js" defer></script> -->
+     <!-- <script src="./30-this_keyword.js" defer></script> -->
+     <!-- <script src="./36-key_press & mouse_hover.js" defer></script> -->
+     <script src="./38-Project.js" defer></script>
+
+      
+     <title>My Website</title>
+</head>
+<body>
+     <header class="header">
+          <nav class="nav container">
+               <h1 class="logo">Website</h1>
+               <ul class="nav-items">
+                    <li class="nav-item"><a href="#home">Home</a></li>
+                    <li class="nav-item"><a href="">Todo</a></li>
+                    <li class="nav-item"><a href="">Sign Up</a></li>
+               </ul>
+          </nav>
+          <div class="headline">
+               <h2 id="main-heading">Manage your Task <span style="display: none;">Hello</span></h2>
+               <button class="btn btn-headline">Learn More</button>
+          </div>
+     </header>
+
+     <section class="todo-section container abc">
+          <h2>Your Plan for today ?</h2>
+          <!-- todo form -->
+          <form class="form-todo">
+               <input type="text" name="" id="" placeholder="Add Todo">
+               <input type="submit" value="Add Todo" class="btn">
+          </form>
+          <ul class="todo-list">
+             <li> <span class="form-todo"> Do this do that</span>
+              <div class="todo-buttons">
+                   <button class="todo-btn done">Done</button>
+                   <button class="todo-btn remove">Remove</button>
+              </div>
+          </li>
+          </ul>
+     </section>
+
+     <section class="signup-section container">
+          <h2>Sign up</h2>
+          <form class="signup-form"> 
+               <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" name='username' id="username">
+               </div>
+               <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name='password' id="password">
+               </div>
+               <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name='confirmPassword' id="confirmPassword">
+               </div>
+               <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" name='phone' id="phone">
+               </div>
+               <div class="form-group">
+                    <label for="Email">E-mail</label>
+                    <input type="email" name='Email' id="Email">
+               </div>
+               <div class="form-group">
+                    <label for="about">About Yourself</label>
+                    <textarea name="about" id="about" cols="30" rows="10"></textarea>
+               </div>
+               <button type="submit" class="btn signup-btn">Submit</button>
+          </form>
+     </section>
+
+</body>
+</html>
